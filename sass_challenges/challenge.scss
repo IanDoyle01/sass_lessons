@@ -47,3 +47,16 @@ $colors: #aaa, #bbb, #ccc, #ddd;
     font-weight: 700;
     @extend %border;
 }
+
+/*Challenge 4 - change the color of all anchor elements*/
+/*that are UL, class listRight and a child of container*/
+
+.container {
+    .listRight {
+        a {
+          &:hover {
+            color: red;    
+          } 
+        }
+    }
+}

@@ -37,4 +37,9 @@
   font-family: "Sans Pro", sans-serif;
   font-weight: 700; }
 
+/*Challenge 4 - change the color of all anchor elements*/
+/*that are UL, class listRight and a child of container*/
+.container .listRight a:hover {
+  color: red; }
+
 /*# sourceMappingURL=challenge.css.map */
